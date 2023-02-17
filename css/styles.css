@@ -1,0 +1,230 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainheader{
+    background-color: #091d1e;
+    width: 100%;
+   
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.active{
+    text-decoration: none;
+    color: hsla(195, 80%, 58%, 0.941);
+    text-shadow: 2px 4px 5px #51afbbf0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #e3e4e9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #3ebee9f0;
+}
+
+.container{
+background-color: #e8f2f1c2;
+width: 80%;
+height: auto;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+box-shadow: 0 2px 2px 1px rgb(0 0 0 / 20%);
+border-radius: 0.3em;
+padding-bottom: 40px;
+}
+.topnav a.icon {
+   display: none;
+  }
+h1{
+    color: rgb(28, 3, 48);
+    font-size: 1.7em;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.innehåll{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    
+}
+#leftcontent{
+margin-left: 50px;
+margin-top: 50px;
+}
+#leftcontent h2{
+  padding-bottom: 15px;  
+}
+#leftcontent ol li{
+    padding-bottom: 15px;  
+    margin-left: 10px;
+  }
+  #leftcontent ol li a{
+ text-decoration: none;
+ color:rgb(16, 71, 112)
+  } 
+  #leftcontent ol li a:hover{
+    text-decoration:underline;
+    color:rgb(7, 30, 48)
+ }
+  #leftcontent ol {
+    padding-top: 20px;  
+  }
+  #rightcontent h2 {
+    padding-bottom: 30px;
+}
+#rightcontent{
+ margin-left: 100px;
+ margin-top: 50px;
+}
+#rightcontent h2 {
+ padding-bottom: 30px;   
+}
+#rightcontent ol li{
+    padding-bottom: 20px;  
+    margin-left: 10px;
+    padding-top: 10px;  
+    font-weight:550;
+
+}
+p{
+padding-left: 14px;
+font-size: 14px;
+}
+
+#rightcontent ol li span{
+
+  display: block;
+  color: #666;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.count {
+  padding-left: 30px;
+}
+.count li{
+  margin-bottom: 10px;
+}
+
+.output{
+    padding: 14px;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 2px;
+    margin-bottom: 1em;
+    font-family: Courier New, Courier, monospace;
+    background-color: rgb(254, 255, 255);
+    margin-top: 40px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer p{
+    padding-top: 40px;
+   text-align: center;
+font-size: 16px;
+}
+.info{
+  padding-bottom: 20px;
+  padding-left: 0px;
+  font-size: 16px;
+}
+.input{
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color:  #3ebee9f0;
+}
+.input:hover {
+  background-color: rgb(33, 60, 72);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px 5px #2d8e9bf0;
+}
+
+.variabler{
+    padding-right: 500px;
+}
+
+
+
+@media (max-width:800px){
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+ 
+  .topnav a:hover {
+    background-color: rgb(161, 213, 235);
+    color: black;
+    text-shadow: 2px 4px 5px #0e1617f0;
+  }
+  .active {
+    background-color: hsla(195, 80%, 58%, 0.941);
+    color: white;
+  }
+
+}
+@media (max-width:1000px){
+.innehåll{
+display: block;
+}
+.sidnav{
+  display: inline-block;
+}
+.sidnav li{
+ margin-right: 20px;
+ padding: 4px 8px 4px 8px;
+ background-color: #3ebee9f0;
+ text-align: center; 
+ display: inline-block;
+ margin: 0 4px 4px 0;
+ color: #fff;
+ border-radius: .25rem;
+}
+.frågor{
+  margin-right: 40px;
+}
+#rightcontent {
+   margin-left: 50px; 
+}
+.variabler {
+  padding-right: 0px; 
+}
+}
