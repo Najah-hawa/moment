@@ -19,9 +19,7 @@ include("includes/mainmenu.php");
 <script src="js/index.js" ></script>
 
 <div class="container"> 
-<h1>DT093G - Webbutveckling II</h1>
-<div class= "innehåll"> 
-<div> 
-<section id="leftcontent"> 
+
+
     
 
