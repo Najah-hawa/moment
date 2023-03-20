@@ -11,7 +11,7 @@ include("includes/header.php");
 <br> 
 <?php
 if(isset($_GET['message'])){
-    echo "<p>" . $_GET['message'] .  "</p>";
+    echo "<p class='message'>" . $_GET['message'] .  "</p>";
 }
 ?>
 
@@ -28,7 +28,7 @@ if(isset($_POST["username"])) {
         header("location:admin.php");
         
     }else {
-        $felmeddelande = "felaktig användarnamn/lösenord";
+        $felmeddelande = "<p class= 'error'> Felaktig användarnamn/lösenord </p>";
         echo  $felmeddelande;
     }
 
@@ -39,16 +39,16 @@ if(isset($_POST["username"])) {
 
 ?> 
 
-<form  method="post" action="login.php">  
-     <label for="username"> Användarnamn: </label>
+<form  method="post" action="login.php" class="form">  
+     <label for="username" > Användarnamn: </label>
      <br> 
-     <input type="text" name="username" id="username"> 
+     <input class="användare" type="text" name="username" id="username"> 
      <br> 
      <label for="password"> Lösenord: </label>
      <br> 
-     <input type="password" name="password" id="password"> 
+     <input class="användare" type="password" name="password" id="password"> 
      <br> 
-     <input type="submit" value="Logga in"> 
+     <input class= "submit" type="submit" value="Logga in"> 
 
 </form> 
 

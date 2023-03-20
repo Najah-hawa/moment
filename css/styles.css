@@ -58,109 +58,176 @@ h1{
     padding-top: 30px;
     padding-left: 50px;
 }
-.innehåll{
-    display: flex;
-    justify-content:space-between;
-    flex-direction:row;
-    
+
+h2{
+  color: rgb(28, 3, 48);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-top: 60px;
+  padding-left: 50px;
 }
-#leftcontent{
-margin-left: 50px;
-margin-top: 50px;
+form{
+  margin-top: 30px;
 }
-#leftcontent h2{
-  padding-bottom: 15px;  
+.label{
+  padding-left: 50px;
+  font-size: 17px;
 }
-#leftcontent ol li{
-    padding-bottom: 15px;  
-    margin-left: 10px;
-  }
-  #leftcontent ol li a{
+.titel{
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 40px;
+  box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+}
+.innehall{
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 200px;
+  box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+}
+
+.skapa{
+  width: 200px;
+  height: 40px;
+ background-color: rgb(28, 3, 48);
+ color:white;
+box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+margin-left: 65%;
+margin-top: 20px;
+}
+.radera{
+  width: 150px;
+  height: 40px;
+ background-color: rgba(51, 119, 179, 0.921);
+box-shadow: 2px 2px 6px 2px rgba(51, 69, 87, 0.921);
+margin-left: 65%;
+padding-top: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.radera a{
+color:rgb(28, 3, 48);
+padding-left: 35%;
+}
+.radera a:link{
  text-decoration: none;
- color:rgb(16, 71, 112)
-  } 
-  #leftcontent ol li a:hover{
-    text-decoration:underline;
-    color:rgb(7, 30, 48)
- }
-  #leftcontent ol {
-    padding-top: 20px;  
   }
-  #rightcontent h2 {
-    padding-bottom: 30px;
+.bakåt{
+  width: 250px;
+ background-color: rgba(145, 176, 204, 0.921);
+margin-left: 65%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 20px;
 }
-#rightcontent{
- margin-left: 100px;
- margin-top: 50px;
+.bakåt a{
+  color:rgb(28, 3, 48);
+  padding-left: 25%;
 }
-#rightcontent h2 {
- padding-bottom: 30px;   
+.bakåt a:link{
+  text-decoration: none;
+   }
+.out{
+  width: 100%;
+  height: 60px;
+  background-color: rgba(37, 142, 233, 0.921);
 }
-#rightcontent ol li{
-    padding-bottom: 20px;  
-    margin-left: 10px;
-    padding-top: 10px;  
-    font-weight:550;
+.out p{
+  padding-left: 80%;
+  padding-top: 30px;
+}
+.out p a{
+  color: black;
 
+  }
+.tid{
+  color:rgb(87, 85, 85);
+  font-size: 10px;
+  padding-top: 12px;
+  margin-left: 50px;
 }
-p{
-padding-left: 14px;
-font-size: 14px;
+h3{
+  color: rgb(28, 3, 48);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
-
-#rightcontent ol li span{
-
-  display: block;
-  color: #666;
-  font-size: 16px;
-  padding-top: 15px;
-}
-.count {
-  padding-left: 30px;
-}
-.count li{
-  margin-bottom: 10px;
-}
-
-.output{
-    padding: 14px;
-    border: 1px solid rgb(215, 213, 213);
-    border-radius: 2px;
-    margin-bottom: 1em;
-    font-family: Courier New, Courier, monospace;
-    background-color: rgb(254, 255, 255);
-    margin-top: 40px;
-    margin-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.text{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 90%;
 }
 footer p{
     padding-top: 40px;
-   text-align: center;
+   padding-left: 40%;
 font-size: 16px;
 }
-.info{
-  padding-bottom: 20px;
-  padding-left: 0px;
-  font-size: 16px;
+.message{
+  color: red;
+  padding-left: 50px;
+  font-size: 18px;
 }
-.input{
-  margin-top: 10px;
-  width: 100px;
+.error{
+    color: red;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.form{
+  padding-left: 30%;
+
+}
+.användare{
+  margin-top: 15px;
+  margin-bottom: 24px;
+  width: 400px;
   height: 30px;
-  background-color:  #3ebee9f0;
 }
-.input:hover {
-  background-color: rgb(33, 60, 72);
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 4px 5px #2d8e9bf0;
+.submit {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(28, 3, 48);
+  color: white;
+  box-shadow: 2px 2px 10px 2px rgb(37 142 233 / 92%);
+  margin-top: 20px;
+}
+.article{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 2px 10px 2px rgba(120, 173, 219, 0.92);
+}
+.detalj{
+ padding-top: 40px;
 }
 
-.variabler{
-    padding-right: 500px;
+@media (max-width:1050px){
+  .bakåt{
+    margin-left: 55%;
+  }
 }
-
-
+@media (max-width:900px){
+  .form{
+    padding-left: 20%;
+  
+  }
+  .bakåt{
+    margin-left: 50%;
+  }
+}
 
 @media (max-width:800px){
 /* Style the navigation menu */
@@ -199,32 +266,103 @@ font-size: 16px;
     background-color: hsla(195, 80%, 58%, 0.941);
     color: white;
   }
+  .skapa {
+    margin-left: 55%;
+  }
+  .bakåt{
+    margin-left: 45%;
+  }
+}
+@media (max-width:700px){
+  .form{
+    padding-left: 10%;
+  }
+  footer p {
+    padding-left: 30%; 
+    font-size: 15px;
+}
+.radera{
+  margin-left: 55%;
+}
+#mainheader {
+   
+  padding: 10px 70px; 
+}
+.bakåt{
+  margin-left: 35%;
+}
+}
+@media (max-width:600px){
+  .radera {
+    margin-left: 45%;
+  }
+  .skapa {
+    margin-left: 45%;
+  }
+  .text{
+    padding-left: 5%;
+    width: 90%;
+  }
+  .tid{
+    margin-left: 5%;
+  }
+  h3{
+    padding-left: 5%;
+  }
+  h2{
+    padding-left: 5%;
+  }
+  .bakåt{
+    margin-left: 30%;
+    width: 200px;
+  }
+}
+@media (max-width:550px){
+  .form{
+    padding-left: 5%;
+  }
+  footer p {
+    padding-left: 25%; 
+    font-size: 14px;
+}
 
 }
-@media (max-width:1000px){
-.innehåll{
-display: block;
+@media (max-width:450px){
+  .användare{
+    width: 250px;
+  }
+  .submit{
+    width: 250px;
+  }
+  .error{
+    font-size: 14px;
+  }
+  .message{
+    font-size: 14px;
+  }
+  #mainheader {
+   
+     padding: 10px 50px; 
 }
-.sidnav{
-  display: inline-block;
+.form{
+  margin-top: 20px;
 }
-.sidnav li{
- margin-right: 20px;
- padding: 4px 8px 4px 8px;
- background-color: #3ebee9f0;
- text-align: center; 
- display: inline-block;
- margin: 0 4px 4px 0;
- color: #fff;
- border-radius: .25rem;
+.skapa{
+  width: 140px;
+  height: 30px;
+margin-left: 45%;
 }
-.frågor{
-  margin-right: 40px;
+.radera{
+  width: 100px;
+  height: 30px;
+margin-left: 40%;
+
 }
-#rightcontent {
-   margin-left: 50px; 
+.bakåt{
+  margin-left: 5%;
+  width: 160px;
 }
-.variabler {
-  padding-right: 0px; 
+.bakåt a{
+  padding-left: 0%;
 }
 }
