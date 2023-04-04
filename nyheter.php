@@ -1,20 +1,18 @@
 <?php include("includes/config.php"); ?>
 <?php include("includes/Nyhet.class.php"); ?>
 <?php
-$page_title = "Startsida";
+$page_title = "";
 include("includes/header.php");
 ?>
-
-
-<h1> startsidan </h1> 
-<article id = "postHolder"> 
-
+<script src="js/textarea.js" ></script>
+<h1> Nyheter </h1> 
 
 
 <?php
 
+//SQL-fråga för att läsa ut inlaggda nyheter från tabellen  
 $nyheter = new Nyhet();
-$list = $nyheter->getnyheter();
+$list = $nyheter->getnyhet();
 foreach($list as $row){
     ?> 
     <article>
@@ -26,12 +24,9 @@ foreach($list as $row){
     <p>  <a href= "details.php?id=<?= $row['id']; ?> ">läsa mer</a> </p> </article>
     <?php
 }
-
 ?>
 
 
-</article> 
 <?php
 include("includes/footer.php");
 ?>
-

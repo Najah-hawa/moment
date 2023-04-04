@@ -58,107 +58,89 @@ h1{
     padding-top: 30px;
     padding-left: 50px;
 }
-.innehåll{
-    display: flex;
-    justify-content:space-between;
-    flex-direction:row;
-    
+
+h2{
+  color: rgb(28, 3, 48);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-top: 60px;
+  padding-left: 50px;
 }
-#leftcontent{
-margin-left: 50px;
-margin-top: 50px;
+form{
+  margin-top: 30px;
 }
-#leftcontent h2{
-  padding-bottom: 15px;  
+.label{
+  padding-left: 50px;
+  font-size: 17px;
 }
-#leftcontent ol li{
-    padding-bottom: 15px;  
-    margin-left: 10px;
+.titel{
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 40px;
+  box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+}
+.innehall{
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 200px;
+  box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+}
+
+.skapa{
+  width: 200px;
+  height: 40px;
+ background-color: rgb(28, 3, 48);
+ color:white;
+box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
+margin-left: 65%;
+margin-top: 20px;
+}
+.out{
+  width: 100%;
+  height: 60px;
+  background-color: rgba(37, 142, 233, 0.921);
+}
+.out p{
+  padding-left: 80%;
+  padding-top: 30px;
+}
+.out p a{
+  color: black;
+
   }
-  #leftcontent ol li a{
- text-decoration: none;
- color:rgb(16, 71, 112)
-  } 
-  #leftcontent ol li a:hover{
-    text-decoration:underline;
-    color:rgb(7, 30, 48)
- }
-  #leftcontent ol {
-    padding-top: 20px;  
-  }
-  #rightcontent h2 {
-    padding-bottom: 30px;
+.tid{
+  color:rgb(87, 85, 85);
+  font-size: 10px;
+  padding-top: 12px;
+  margin-left: 50px;
 }
-#rightcontent{
- margin-left: 100px;
- margin-top: 50px;
+h3{
+  color: rgb(28, 3, 48);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
-#rightcontent h2 {
- padding-bottom: 30px;   
-}
-#rightcontent ol li{
-    padding-bottom: 20px;  
-    margin-left: 10px;
-    padding-top: 10px;  
-    font-weight:550;
-
-}
-p{
-padding-left: 14px;
-font-size: 14px;
-}
-
-#rightcontent ol li span{
-
-  display: block;
-  color: #666;
-  font-size: 16px;
-  padding-top: 15px;
-}
-.count {
-  padding-left: 30px;
-}
-.count li{
-  margin-bottom: 10px;
-}
-
-.output{
-    padding: 14px;
-    border: 1px solid rgb(215, 213, 213);
-    border-radius: 2px;
-    margin-bottom: 1em;
-    font-family: Courier New, Courier, monospace;
-    background-color: rgb(254, 255, 255);
-    margin-top: 40px;
-    margin-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.text{
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 footer p{
     padding-top: 40px;
    text-align: center;
 font-size: 16px;
 }
-.info{
-  padding-bottom: 20px;
-  padding-left: 0px;
-  font-size: 16px;
-}
-.input{
-  margin-top: 10px;
-  width: 100px;
-  height: 30px;
-  background-color:  #3ebee9f0;
-}
-.input:hover {
-  background-color: rgb(33, 60, 72);
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 4px 5px #2d8e9bf0;
-}
 
-.variabler{
-    padding-right: 500px;
-}
 
 
 
@@ -200,31 +182,4 @@ font-size: 16px;
     color: white;
   }
 
-}
-@media (max-width:1000px){
-.innehåll{
-display: block;
-}
-.sidnav{
-  display: inline-block;
-}
-.sidnav li{
- margin-right: 20px;
- padding: 4px 8px 4px 8px;
- background-color: #3ebee9f0;
- text-align: center; 
- display: inline-block;
- margin: 0 4px 4px 0;
- color: #fff;
- border-radius: .25rem;
-}
-.frågor{
-  margin-right: 40px;
-}
-#rightcontent {
-   margin-left: 50px; 
-}
-.variabler {
-  padding-right: 0px; 
-}
 }

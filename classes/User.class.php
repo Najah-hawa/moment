@@ -5,7 +5,6 @@ class User{
 private $username;
 private $password;
 
-
 function loginUser($username, $password) {
     if($username == "admin" && $password == "password") {
         $_SESSION['username'] = $username;
@@ -14,9 +13,6 @@ function loginUser($username, $password) {
         return false;
     }
 }
-
-
-
 
 }
 
