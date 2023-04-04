@@ -19,16 +19,6 @@ $page_title = $details["titel"];
 include("includes/header.php");
 ?>
 
-<<<<<<< HEAD
-
-
-<h1> <?= $details["titel"]; ?> </h1> 
-<p>  <?= $details["tid"]; ?></p> 
-<p>  <?= $details["innehall"]; ?></p> 
-
-
-
-=======
 <div class= "detalj">
     <h1>Läsa mer infromation om <?= $details["titel"]; ?> </h1>
 <article class="article">  
@@ -39,7 +29,6 @@ include("includes/header.php");
 </article> 
 
 </div>
->>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 
 <?php
 include("includes/footer.php");

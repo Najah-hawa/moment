@@ -100,8 +100,6 @@ box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
 margin-left: 65%;
 margin-top: 20px;
 }
-<<<<<<< HEAD
-=======
 .radera{
   width: 150px;
   height: 40px;
@@ -134,7 +132,6 @@ margin-top: 20px;
 .bakåt a:link{
   text-decoration: none;
    }
->>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 .out{
   width: 100%;
   height: 60px;
@@ -164,29 +161,18 @@ h3{
 }
 .text{
   color: black;
-<<<<<<< HEAD
-  font-size: 1.4em;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  padding-top: 20px;
-  padding-left: 50px;
-=======
   font-size: 1.2em;
   font-weight: 400;
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   width: 90%;
->>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 }
 footer p{
     padding-top: 40px;
    padding-left: 40%;
 font-size: 16px;
 }
-<<<<<<< HEAD
-
-=======
 .message{
   color: red;
   padding-left: 50px;
@@ -227,7 +213,6 @@ font-size: 16px;
 .detalj{
  padding-top: 40px;
 }
->>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 
 @media (max-width:1050px){
   .bakåt{
@@ -342,8 +327,6 @@ font-size: 16px;
 }
 
 }
-<<<<<<< HEAD
-=======
 @media (max-width:450px){
   .användare{
     width: 250px;
@@ -383,4 +366,3 @@ margin-left: 40%;
   padding-left: 0%;
 }
 }
->>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
