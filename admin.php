@@ -25,15 +25,24 @@ $nyhet = new Nyhet();
 if (isset ($_GET['deleteid'])){
     $deleteid= intval ($_GET['deleteid']);
     if ($nyhet -> deletenyhet($deleteid)){
+<<<<<<< HEAD
         echo "nyhet raderad ";
     }else{
         echo "fel vid radering ";
+=======
+        echo "<p class='error'> Nyhet raderad</p> ";
+    }else{
+        echo "<p class='error'> Fel vid radering </p>";
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
     }
 }
 
 
 //defult värde
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 $innehall= "";
 
 
@@ -45,6 +54,7 @@ $innehall= "";
 
     if (!$nyhet-> setname($name)){
         $success = false;
+<<<<<<< HEAD
         echo "<p> Du måste ange en titel! </P>";
     }
     if (!$nyhet-> setname($innehall)){
@@ -63,6 +73,24 @@ $innehall= "";
 
         
 
+=======
+        echo "<p class='error'> Du måste ange en titel med minst 5 bokstäver! </P>";
+    }
+    if (!$nyhet-> setinnehall($innehall)){
+        $success = false;
+        echo "<p class='error'> Du måste ange en innehålls-text med minst 5 bokstäver! </P>";
+    }
+    if($success){
+        if($nyhet->addnyhet($name, $innehall)){
+            echo "<p class='error'> Nyhet tillagd! </P>";
+
+        }else{
+            echo "<p class='error'> Fel vid lagring </P>";
+        } }else {  
+            echo "<p class='error'> Nyhet ej tillagd, försök igen senare. </P>";
+
+        
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
     }
 
 }
@@ -74,7 +102,11 @@ $innehall= "";
     <br> 
     <label class="label" for="innehall"> Innehåll </label>
     <br> 
+<<<<<<< HEAD
     <textarea  class="innehall"  name="innehall" id= "innehall"> <?= $innehall; ?> </textarea> 
+=======
+    <textarea  class="innehall"  name="innehall" id= "innehall">  </textarea> 
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
     <br> 
     <input class="skapa" type="submit" value="Skapa nyhet"> 
 </form> 
@@ -88,6 +120,7 @@ $innehall= "";
 
 $list = $nyhet->getnyhet();
 foreach($list as $row){
+<<<<<<< HEAD
     ?> 
     <article>
     <?php 
@@ -96,11 +129,26 @@ foreach($list as $row){
     echo"<p class='text'>" .  $row['innehall'] . "</p>"; 
     ?> 
     <p>  <a href= "admin.php?deleteid=<?= $row['id']; ?> ">Radera</a> </p> </article>
+=======
+       $innehall = $row['innehall'];
+       
+    ?> 
+    <article class="article">
+    <?php 
+     echo  "" . "<h3>" .  $row['titel']. "</h3>" ;
+     echo  "<p class='tid'>" .  $row['tid']. "</p>";
+     echo  "<p class='text'> " .  substr($innehall, 0,  500 ) . "...." . "</p>"; 
+    ?> 
+    <p  class='radera'>  <a href= "admin.php?deleteid=<?= $row['id']; ?>">Radera</a> </p> </article>
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
     <?php
 }
 ?>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 </div>
 
 <?php inculde("includes/footer.php"); ?>

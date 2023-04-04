@@ -19,6 +19,7 @@ $page_title = $details["titel"];
 include("includes/header.php");
 ?>
 
+<<<<<<< HEAD
 
 
 <h1> <?= $details["titel"]; ?> </h1> 
@@ -27,6 +28,18 @@ include("includes/header.php");
 
 
 
+=======
+<div class= "detalj">
+    <h1>Läsa mer infromation om <?= $details["titel"]; ?> </h1>
+<article class="article">  
+<h2> <?= $details["titel"]; ?> </h2> 
+<p class='tid'>  <?= $details["tid"]; ?></p> 
+<p class='text'>  <?= $details["innehall"]; ?></p> 
+<p class='bakåt'>  <a href= "nyheter.php">Tillbaka till nyheter</a> </p> </article>
+</article> 
+
+</div>
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 
 <?php
 include("includes/footer.php");

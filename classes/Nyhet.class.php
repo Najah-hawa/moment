@@ -10,10 +10,17 @@ private $innehall;
 //construktor
 function __construct(){
 //connect to db 
+<<<<<<< HEAD
 $this -> db =new mysqli('localhost', 'nyheter', 'password', 'nyheter');
 
 if($this -> db->connect_errno > 0){
     die('Fel vid anslutning [' . $db->connect_error . ']');
+=======
+$this -> db =new mysqli('studentmysql.miun.se', 'naha2204', '6337PJNrZr', 'naha2204');
+
+if($this -> db->connect_errno > 0){
+    die('Fel vid anslutning försök igen [' . $db->connect_error . ']');
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 }
 }
 
@@ -30,7 +37,11 @@ public function addnyhet(string $name, string $innehall) : bool{
 
 // set- metoder
 public function setname (string $name): bool {
+<<<<<<< HEAD
     if (mb_strlen($name) > 0 ) {
+=======
+    if (mb_strlen($name) > 5) {
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
         $this-> name = $name;
         return true;
     } else {
@@ -38,7 +49,11 @@ public function setname (string $name): bool {
     }
 }
 public function setinnehall (string $innehall): bool {
+<<<<<<< HEAD
     if (mb_strlen($innehall) > 0 ) {
+=======
+    if (mb_strlen($innehall) > 5 ) {
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
         $this-> innehall = $innehall;
         return true;
     } else {
@@ -55,7 +70,11 @@ public function getnyhet(): array{
 }
 
 public function getnyheter(): array{
+<<<<<<< HEAD
     $numrows = 999; //Maxvärde
+=======
+    $numrows = 2; //Maxvärde
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
     if(isset($_GET['numrows'])) {
         $numrows = intval($_GET['numrows']);
     }
