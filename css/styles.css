@@ -100,6 +100,41 @@ box-shadow: 2px 2px 10px 2px rgba(37, 142, 233, 0.921);
 margin-left: 65%;
 margin-top: 20px;
 }
+<<<<<<< HEAD
+=======
+.radera{
+  width: 150px;
+  height: 40px;
+ background-color: rgba(51, 119, 179, 0.921);
+box-shadow: 2px 2px 6px 2px rgba(51, 69, 87, 0.921);
+margin-left: 65%;
+padding-top: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.radera a{
+color:rgb(28, 3, 48);
+padding-left: 35%;
+}
+.radera a:link{
+ text-decoration: none;
+  }
+.bakåt{
+  width: 250px;
+ background-color: rgba(145, 176, 204, 0.921);
+margin-left: 65%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 20px;
+}
+.bakåt a{
+  color:rgb(28, 3, 48);
+  padding-left: 25%;
+}
+.bakåt a:link{
+  text-decoration: none;
+   }
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 .out{
   width: 100%;
   height: 60px;
@@ -129,20 +164,85 @@ h3{
 }
 .text{
   color: black;
+<<<<<<< HEAD
   font-size: 1.4em;
   font-weight: 500;
   letter-spacing: 1.5px;
   padding-top: 20px;
   padding-left: 50px;
+=======
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 90%;
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 }
 footer p{
     padding-top: 40px;
-   text-align: center;
+   padding-left: 40%;
 font-size: 16px;
 }
+<<<<<<< HEAD
 
+=======
+.message{
+  color: red;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.error{
+    color: red;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.form{
+  padding-left: 30%;
 
+}
+.användare{
+  margin-top: 15px;
+  margin-bottom: 24px;
+  width: 400px;
+  height: 30px;
+}
+.submit {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(28, 3, 48);
+  color: white;
+  box-shadow: 2px 2px 10px 2px rgb(37 142 233 / 92%);
+  margin-top: 20px;
+}
+.article{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 2px 10px 2px rgba(120, 173, 219, 0.92);
+}
+.detalj{
+ padding-top: 40px;
+}
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
 
+@media (max-width:1050px){
+  .bakåt{
+    margin-left: 55%;
+  }
+}
+@media (max-width:900px){
+  .form{
+    padding-left: 20%;
+  
+  }
+  .bakåt{
+    margin-left: 50%;
+  }
+}
 
 @media (max-width:800px){
 /* Style the navigation menu */
@@ -181,5 +281,106 @@ font-size: 16px;
     background-color: hsla(195, 80%, 58%, 0.941);
     color: white;
   }
+  .skapa {
+    margin-left: 55%;
+  }
+  .bakåt{
+    margin-left: 45%;
+  }
+}
+@media (max-width:700px){
+  .form{
+    padding-left: 10%;
+  }
+  footer p {
+    padding-left: 30%; 
+    font-size: 15px;
+}
+.radera{
+  margin-left: 55%;
+}
+#mainheader {
+   
+  padding: 10px 70px; 
+}
+.bakåt{
+  margin-left: 35%;
+}
+}
+@media (max-width:600px){
+  .radera {
+    margin-left: 45%;
+  }
+  .skapa {
+    margin-left: 45%;
+  }
+  .text{
+    padding-left: 5%;
+    width: 90%;
+  }
+  .tid{
+    margin-left: 5%;
+  }
+  h3{
+    padding-left: 5%;
+  }
+  h2{
+    padding-left: 5%;
+  }
+  .bakåt{
+    margin-left: 30%;
+    width: 200px;
+  }
+}
+@media (max-width:550px){
+  .form{
+    padding-left: 5%;
+  }
+  footer p {
+    padding-left: 25%; 
+    font-size: 14px;
+}
 
 }
+<<<<<<< HEAD
+=======
+@media (max-width:450px){
+  .användare{
+    width: 250px;
+  }
+  .submit{
+    width: 250px;
+  }
+  .error{
+    font-size: 14px;
+  }
+  .message{
+    font-size: 14px;
+  }
+  #mainheader {
+   
+     padding: 10px 50px; 
+}
+.form{
+  margin-top: 20px;
+}
+.skapa{
+  width: 140px;
+  height: 30px;
+margin-left: 45%;
+}
+.radera{
+  width: 100px;
+  height: 30px;
+margin-left: 40%;
+
+}
+.bakåt{
+  margin-left: 5%;
+  width: 160px;
+}
+.bakåt a{
+  padding-left: 0%;
+}
+}
+>>>>>>> 9aeac0768df73d2fbb76af91c04dc9a3ca5a39cf
