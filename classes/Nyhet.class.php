@@ -10,10 +10,10 @@ private $innehall;
 //construktor
 function __construct(){
 //connect to db 
-$this -> db =new mysqli('localhost', 'nyheter', 'password', 'nyheter');
+$this -> db =new mysqli('studentmysql.miun.se', 'naha2204', '6337PJNrZr', 'naha2204');
 
 if($this -> db->connect_errno > 0){
-    die('Fel vid anslutning [' . $db->connect_error . ']');
+    die('Fel vid anslutning försök igen [' . $db->connect_error . ']');
 }
 }
 

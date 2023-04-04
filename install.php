@@ -2,9 +2,9 @@
 
 <?php
 /* Anslut med nytt konto för varor */
-$db = new mysqli("localhost", "nyheter", "password", "nyheter");
+$db = new mysqli('studentmysql.miun.se', 'naha2204', '6337PJNrZr', 'naha2204');
 if($db->connect_errno > 0){
-    die('Fel vid anslutning [' . $db->connect_error . ']');
+    die('Fel vid anslutning försök igen efter att lösa problem [' . $db->connect_error . ']');
 } 
 
 /* SQL-fråga för att skapa tabell */
